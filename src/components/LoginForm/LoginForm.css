@@ -1,0 +1,172 @@
+.login-form{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../../assets/images/background-login.jpg);
+    z-index: 99999999999999999999999999999;
+}
+.login-form-wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99999999999999999999999999999;
+}
+.login-form-main{
+    height: 560px;
+    width: 770px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 16px 30px rgba(0,0,0,.16);
+    display: flex;
+}
+.login-form-footer{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    margin-bottom: 14px;
+    z-index: 99999999999999999999999999999;
+}
+.login-form-error-msg{
+    position: absolute;
+    top: -48px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #f65335;
+    display: flex;
+    align-items: center;
+}
+.login-form-error-msg > p{
+    color: #fff;
+    font-size: 14px;
+    padding: 0 16px;
+}
+.login-form-left{
+    display: block;
+    height: 100%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../../assets/images/form-left.jpg);
+}
+.login-form-right{
+    display: block;
+    height: 100%;
+    width: 50%;
+}
+.login-form-right-wrapper{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-form-right-header{
+    display: flex;
+    height: 60px;
+    width: 100px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://qltsapp.misacdn.net/src/img/Logo%20MISA_VN.svg);
+}
+.login-form-right-title{
+    font-size: 15px;
+    color: #4f4f4f;
+}
+.login-form-right-title >span{
+    font-weight: 700;
+}
+
+.login-form-right-input{
+    width: 100%;
+    height: 44px;
+    padding: 0 20px;
+    margin-top: 16px;
+    border-radius: 4px;
+    border: 1px solid #dadce0;
+    font-size: 13px;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+
+}
+.login-form-right-input > input{
+    outline: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: none;
+    flex: 1;
+    line-height: 20px;
+}
+.login-form-right-input > input::placeholder{
+    color: #9e9d9de0;
+}
+.input-password-icon{
+    position: relative;
+    right: -6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.login-form-right-button{
+    width: 100%;
+    margin: 16px 0;
+    height: 44px !important;
+    font-size: 16px !important;
+    background-color: #1a73e8 !important;
+}
+.change-action{
+    font-size: 15px;
+    color: #1a73e8;
+    text-decoration: none;
+    cursor: pointer;
+}
+.input-border-blue{
+    border: 1px solid #1a73e8;
+}
+.input-border-red{
+    border: 1px solid red;
+}
+.input-code{
+    width: 100%;
+    display: flex;
+}
+.input-code-type-icon{
+    position: relative;
+    right: -6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.input-code-type{
+    width: 60%;
+    margin-right: 16px;
+}
+.input-code-random{
+    background-color: #efeeee;
+    font-size: 15px;
+    color: #969595;
+    letter-spacing: 1px;
+    padding: 0 16px;
+}

@@ -1,0 +1,9 @@
+@import url('../../assets/css/base/grid.css');
+.body{
+    flex: 1;
+    background-color: #f4f7ff;
+
+}
+body::-webkit-scrollbar {
+    display: none; /* cho Chrome, Safari, and Opera */
+  }

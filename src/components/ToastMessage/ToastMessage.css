@@ -1,0 +1,42 @@
+.form-toast-message {
+  display: block;
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  animation: fadeIn 0.2s ease-in;
+  z-index: 10000;
+}
+
+.toast-message-success-icon {
+  border-radius: 50%;
+  height: 17px;
+  width: 17px;
+  background-color: rgb(74, 248, 74);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toast-message {
+  border-radius: 4px;
+  background-color: #ffffff;
+  width: 400px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+}
+.toast-message-success {
+  display: flex;
+  align-items: center;
+  padding: 16px 20px;
+}
+
+.toast-message-success-content {
+  margin-left: 16px;
+}
+.toast-message-success-icon-blur {
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(191, 254, 191);
+}

@@ -1,0 +1,24 @@
+.list-asset-search{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #afafaf;
+    padding-left: 16px;
+}
+.increment-form-main-detail-table.list-asset-table{
+    margin: 0;
+    padding: 0 16px;
+}
+.increment-data-table-asset-main.list-asset-table-main{
+    min-height: 460px;
+}
+.increment-form.list-asset-form{
+    width: 1200px;
+}
+.data-table-tr{
+    cursor: pointer;
+}
+.data-table-tr:hover{
+  background-color: rgba(26, 164, 200, 0.2);
+
+}

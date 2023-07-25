@@ -1,0 +1,116 @@
+@import url('../../assets/css/base/grid.css');
+/* Header */
+.header{
+    height: 44px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header > p{
+    margin: 0;
+    padding: 14px 0 14px 16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+.header-nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-nav-bar > p{
+    font-size: 14px;
+    line-height: 16px;
+    color: #001031;
+    font-weight: 500;
+    margin-right: 26px;
+}
+.header-year{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    width: 112px;
+    border-radius: 3px;
+    background-color: rgba(26, 164, 200, .2);
+}
+.header-year > p{
+    font-size: 13px;
+    line-height: 14px;
+    margin-left: 11px;
+}
+.header-year > span{
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 700;
+}
+.header-notification{
+    width: 24px;
+    height: 24px;
+    margin-left: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-square{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.header-question-mark{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.header-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.header-user-avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+
+}
+.header-user-down{
+    margin-right: 23px;
+    position: relative;
+}
+.header-year-move{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+}
+.header-icon-up{
+    margin-bottom: 3px;
+}
+.header-user-logout{
+    display: flex;
+    align-items: center;
+    height: 36px;
+    padding-left: 8px;
+    width: 80px;
+    background-color: #fff;
+    border-radius: 3px;
+    position: absolute;
+    bottom: -56px;
+    left: -70px;
+    z-index: 100;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+}
+.header-user-logout:hover{
+    background-color: rgb(207, 237, 255);
+}

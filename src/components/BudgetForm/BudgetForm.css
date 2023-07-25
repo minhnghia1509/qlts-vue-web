@@ -1,0 +1,124 @@
+.increment-form.budget-form{
+    width: 860px;
+    position: sticky;
+    top: calc(50% - 282px);
+    left: calc(50% - 430px);
+}
+.budget-form-detail{
+}
+.budget-form-detail-list{
+    height: 260px;
+    margin-bottom: 12px;
+}
+.budget-form-department{
+    padding-left: 20px;
+
+}
+.budget-form-department>p{
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 6px;
+}
+.budget-form-department>input{
+    font-size: 13px;
+    background-color: #f5f5f5;
+    width: 70%;
+    box-sizing: border-box;
+}
+.budget-form-detail{
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 20px;
+}
+.budget-form-detail>p{
+    font-weight: 550;
+    margin-bottom: 12px;
+}
+.budget-form-detail-header{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+.budget-form-detail-header-source{
+    width: calc(50% - 8px);
+    box-sizing: border-box;
+    margin-right: 8px;
+}
+.budget-form-detail-header-cost{
+    box-sizing: border-box;
+}
+.budget-form-detail-header-cost-div{
+    width: 20%;
+}
+.budget-form-value{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.budget-form-value-combobox{
+    margin-bottom: 20px;
+    max-height: 36px;
+}
+.budget-form-value-combobox > p{
+    line-height: 12px;
+}
+.budget-form-value-price{
+    margin-bottom: 20px;
+    max-height: 36px;
+}
+.budget-form-value-price > p{
+    line-height: 12px;
+}
+.budget-form-value > div > input{
+    outline: none;
+    height: 36px;
+    font-size: 13px;
+    line-height: 17px;
+    padding-right: 12px;
+    border: 1px solid #afafaf;
+    border-radius: 3px;
+    width: 100%;
+}
+.budget-form-action{
+    width: calc(30%-20px);
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    margin-left: 20px;
+    height: 36px;
+}
+.budget-form-action-icon{
+    height: 36px;
+    width: 38px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.budget-form-action-icon:hover{
+    opacity: 70%;
+}
+.budget-form-detail-footer{
+    margin-bottom: 20px;
+}
+
+.budget-form-detail-footer>input{
+    outline: none;
+    height: 36px;
+    font-size: 13px;
+    line-height: 17px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border: 1px solid #afafaf;
+    border-radius: 3px;
+}
+.budget-form-detail-footer > .budget-form-detail-header-cost{
+    width: 20%;
+}
+.increment-form-footer-save{
+    margin-right: 20px;
+}
+.budget-form-detail-footer > input{
+    background-color: #f5f5f5;
+}

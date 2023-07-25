@@ -1,0 +1,277 @@
+.increment-page-wrapper {
+  max-height: calc(100vh - 74px);
+  margin: 13px 20px 17px 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+.increment-page-header {
+  display: flex;
+  height: 42px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.increment-page-header-action-add {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  margin-right: 16px;
+}
+.increment-page-header-action {
+  display: flex;
+}
+.increment-page-header-action-view {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  height: 36px;
+}
+.action-view-type {
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.action-view-choose {
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.increment-page-main {
+  display: flex;
+  flex-direction: column;
+}
+.increment-page-main-action {
+  min-height: 60px;
+  background-color: #fff;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding-left: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.main-action-search {
+  display: flex;
+  width: 280px;
+}
+.main-action-act {
+  display: flex;
+}
+.main-action-export {
+  height: 30px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.main-action-delete {
+  height: 30px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.main-action-export:hover {
+  opacity: 60%;
+}
+.main-action-options {
+  height: 30px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.main-action-options:hover {
+  opacity: 60%;
+}
+.increment-data-table {
+}
+.increment-data-table-header-tr {
+  background-color: #f5f5f5;
+  height: 42px;
+  box-sizing: border-box;
+}
+.increment-data-table-body-tr {
+  border-bottom: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.increment-data-table-main {
+  height: 200px;
+  overflow-y: scroll;
+  max-height: calc(100vh - 353px);
+}
+
+.increment-data-table-main > table > tbody {
+  overflow: unset;
+  height: unset;
+}
+.increment-data-table-main > table > tbody > tr {
+  background-color: #fff;
+  height: 42px;
+  box-sizing: border-box;
+}
+.increment-data-table-main > table > tbody > tr:hover{
+  cursor:default;
+  background-color: rgba(15, 177, 218, 0.39) !important;
+}
+.increment-data-table-main > table > tbody > tr:hover .increment-data-table-tr-action{
+  display: flex;
+}
+.increment-data-table-footer {
+  position: relative;
+}
+.increment-data-table-footer > table > tbody {
+  height: 84px;
+}
+.increment-data-table-footer > table > tr {
+  background-color: #f5f5f5;
+  height: 42px;
+  box-sizing: border-box;
+}
+ .data-tables-footer {
+  background-color: #fff;
+  height: 42px;
+}
+.increment-data-table-pull-icon {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: ns-resize;
+}
+.increment-detail-table {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  min-height: calc(100vh - 185px);
+  display: flex;
+  flex-direction: column;
+  top: 0px;
+  /* overflow: hidden; */
+}
+.increment-data-table-asset{
+    position: relative;
+    flex: 1;
+}
+.increment-data-table-split{
+    min-height: 8px;
+    width: 100%;
+    background-color: #f4f7ff;
+}
+.increment-data-table-asset-header{
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.increment-data-table-asset-header > p{
+    font-size: 14px;
+    font-weight: 550;
+    padding-left: 17px;
+}
+.increment-data-table-asset-header-zoom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.increment-data-table-asset-table-header > table > thead{
+  height: 42px;
+  background-color: #f5f5f5;
+  font-size: 13px;
+}
+.increment-data-table-asset-table-header > table > thead > th{
+  position: sticky;
+}
+.increment-data-table-asset-main > table > tbody {
+  height: unset;
+}
+.increment-data-table-asset-main > table > tbody > tr{
+  border-bottom: 1px solid #e0e0e0;
+}
+.align-center-number{
+  text-align: center;
+}
+.action-view-list{
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  top: 42px;
+  right: 0;
+  background-color: #fff;
+  width: 160px;
+  border-radius: 3px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  margin: 0;
+  z-index: 10;
+}
+.action-view-list-item{
+  height: 36px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 14px;
+}
+.action-view-list-item:hover{
+  background-color: rgb(207, 237, 255);
+}
+.action-view-list-item > i{
+  margin: 0 6px;
+}
+.increment-data-table-tr-action{
+  display: none;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+.increment-data-table-tr-action > div{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.increment-data-table-asset-main-footer{
+  background-color: #f5f5f5;
+}
+.increment-data-table-asset-main-footer:hover{
+  background-color: #f5f5f5;
+}
+
+.increment-data-table-asset-main-data{
+  overflow-y: scroll;
+  position: relative;
+}
+.action-buttons-delete-increment{
+  background-color: #fff;
+  margin-right: 16px;
+}
+.increment-data-table-body-tr > td > .ms-tooltip > p{
+  height: 14px;
+}
+.increment-data-table-main > table > tbody{
+  position: relative;
+}

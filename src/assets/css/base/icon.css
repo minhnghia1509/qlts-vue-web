@@ -1,0 +1,272 @@
+.home-icon {
+  background: url("../../icon/qlts-icon.svg") no-repeat -20px -680px;
+  width: 36px;
+  height: 36px;
+  margin-top: 11px;
+}
+.icon-1 {
+  background: url("../../icon/qlts-icon.svg") no-repeat -21px -153px;
+  width: 22px;
+  height: 22px;
+}
+.icon-2 {
+  background: url("../../icon/qlts-icon.svg") no-repeat -65px -153px;
+  width: 22px;
+  height: 23px;
+}
+.icon-3 {
+  background: url("../../icon/qlts-icon.svg") no-repeat -110px -153px;
+  width: 21px;
+  height: 23px;
+}
+.icon-4 {
+  background: url("../../icon/qlts-icon.svg") no-repeat -153px -153px;
+  width: 22px;
+  height: 22px;
+}
+.icon-5 {
+  background: url("../../icon/qlts-icon.svg") no-repeat -197px -155px;
+  width: 22px;
+  height: 18px;
+}
+.icon-6 {
+  background: url("../../icon/qlts-icon.svg") no-repeat -241px -153px;
+  width: 22px;
+  height: 22px;
+}
+.icon-7 {
+  background: url("../../icon/qlts-icon.svg") no-repeat -329px -153px;
+  width: 22px;
+  height: 22px;
+}
+.icon {
+  height: 24px;
+  width: 24px;
+  opacity: 60%;
+  position: relative;
+  left: 1px;
+}
+.icon.icon-5 {
+  top: 2px;
+}
+.icon.icon-7 {
+  top: 1px;
+}
+
+.icon-bell {
+  background: url("../../icon/qlts-icon.svg") no-repeat -332px -109px;
+  width: 16px;
+  display: block;
+  height: 20px;
+}
+.icon-square {
+  background: url("../../icon/qlts-icon.svg") no-repeat -199px -23px;
+  width: 18px;
+  height: 18px;
+  display: block;
+  transform: scale(calc(20 / 18));
+}
+
+.icon-question-mark {
+  background: url("../../icon/qlts-icon.svg") no-repeat -67px -67px;
+  width: 18px;
+  height: 18px;
+  display: block;
+  transform: scale(calc(20 / 18));
+}
+.icon-user {
+  background: url("../../icon/qlts-icon.svg") no-repeat -23px -23px;
+  width: 18px;
+  height: 18px;
+  transform: scale(calc(20 / 18));
+  display: block;
+}
+
+.icon-down {
+  background: url("../../icon/qlts-icon.svg") no-repeat -72px -338px;
+  width: 8px;
+  height: 5px;
+  display: block;
+}
+
+.icon-arrow-down {
+	background: url('../../icon/qlts-icon.svg') no-repeat -158px -293px;
+	width: 12px;
+	height: 7px;
+  display: block;
+}
+.icon-arrow-down-black {
+	background: url('../../icon/qlts-icon.svg') no-repeat -158px -249px;
+	width: 12px;
+	height: 7px;
+  display: block;
+}
+.icon-arrow-left {
+	background: url('../../icon/qlts-icon.svg') no-repeat -29px -290px;
+	width: 7px;
+	height: 12px;
+}
+.icon-up {
+  background: url("../../icon/qlts-icon.svg") no-repeat -28px -338px;
+  width: 8px;
+  height: 5px;
+  display: block;
+}
+.icon-search {
+  background: url("../../icon/qlts-icon.svg") no-repeat -243px -23px;
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+.icon-category {
+  background: url("../../icon/qlts-icon.svg") no-repeat -243px -69px;
+  width: 17px;
+  height: 16px;
+}
+.icon-edit {
+  background: url("../../icon/qlts-icon.svg") no-repeat -287px -111px;
+  width: 18px;
+  height: 17px;
+  display: block;
+}
+.icon-delete {
+  background: url("../../icon/qlts-icon.svg") no-repeat -463px -111px;
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.icon-pen {
+  background: url("../../icon/qlts-icon.svg") no-repeat -156px -68px;
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+.icon-copy {
+  background: url("../../icon/qlts-icon.svg") no-repeat -244px -112px;
+  width: 16px;
+  height: 16px;
+}
+.icon-left {
+  background: url("../../icon/qlts-icon.svg") no-repeat -206px -248px;
+  width: 5px;
+  height: 8px;
+  display: block;
+}
+.icon-right {
+  background: url("../../icon/qlts-icon.svg") no-repeat -250px -248px;
+  width: 5px;
+  height: 8px;
+  display: block;
+}
+.icon-close {
+  background: url("../../icon/qlts-icon.svg") no-repeat -375px -287px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  display: block;
+}
+.icon-date {
+  background: url("../../icon/qlts-icon.svg") no-repeat -287px -67px;
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.icon-warning {
+  background: url("../../icon/qlts-icon.svg") no-repeat -416px -66px;
+  width: 24px;
+  height: 20px;
+  scale: calc(34 / 24);
+  z-index: 2;
+}
+
+.icon-success {
+  background: url("../../icon/qlts-icon.svg") no-repeat -71px -512px;
+  width: 11px;
+  height: 8px;
+  display: block;
+}
+.icon-add {
+	background: url("../../icon/qlts-icon.svg") no-repeat -155px -111px;
+	width: 18px;
+	height: 18px;
+}
+.icon-delete-black {
+	background: url("../../icon/qlts-icon.svg") no-repeat -419px -111px;
+	width: 18px;
+	height: 18px;
+}
+.icon-eye {
+	background: url('../../icon/qlts-icon.svg') no-repeat -22px -377px;
+	width: 20px;
+	height: 15px;
+  display: block;
+}
+.icon-none-eye {
+	background: url('../../icon/qlts-icon.svg') no-repeat -66px -375px;
+	width: 21px;
+	height: 17px;
+  display: block;
+}
+.icon-change {
+	background: url('../../icon/qlts-icon.svg') no-repeat -110px -68px;
+	width: 20px;
+	height: 16px;
+  display: block;
+}
+.icon-view-1 {
+	background: url('../../icon/qlts-icon.svg') no-repeat -110px -420px;
+	width: 20px;
+	height: 15px;
+  display: block;
+}
+.icon-view-2 {
+	background: url('../../icon/qlts-icon.svg') no-repeat -22px -421px;
+	width: 20px;
+  display: block;
+	height: 14px;
+}
+.icon-export {
+	background: url('../../icon/qlts-icon.svg') no-repeat -331px -67px;
+	width: 18px;
+	height: 18px;
+  display: block;
+}
+.icon-options {
+	background: url('../../icon/qlts-icon.svg') no-repeat -383px -26px;
+	width: 3px;
+	height: 13px;
+  display: block;
+}
+
+.icon-pull {
+	background: url('../../icon/qlts-icon.svg') no-repeat -203px -111px;
+	width: 10px;
+	height: 18px;
+  display: block;
+}
+.icon-zoom-in {
+	background: url('../../icon/qlts-icon.svg') no-repeat -245px -333px;
+	width: 14px;
+	height: 14px;
+  display: block;
+}
+.icon-zoom-out {
+	background: url('../../icon/qlts-icon.svg') no-repeat -289px -333px;
+	width: 14px;
+	height: 14px;
+  display: block;
+}
+.icon-add-item {
+	background: url('../../icon/qlts-icon.svg') no-repeat -375px -419px;
+	width: 18px;
+	height: 18px;
+  display: block;
+}
+.icon-remove-item {
+	background: url('../../icon/qlts-icon.svg') no-repeat -375px -463px;
+	width: 18px;
+	height: 18px;
+  display: block;
+}
